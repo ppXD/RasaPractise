@@ -5,7 +5,7 @@ pipeline:
 - name: WhitespaceTokenizer
 - name: LanguageModelFeaturizer
   model_name: bert
-  model_weights: bert-base-multilingual-cased
+  model_weights: rasa/LaBSE
 - name: RegexFeaturizer
 - name: DIETClassifier
   epochs: 100
