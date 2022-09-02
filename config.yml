@@ -2,7 +2,7 @@ recipe: default.v1
 language: ch
 
 pipeline:
-- name: LanguageModelTokenizer
+- name: WhitespaceTokenizer
 - name: LanguageModelFeaturizer
   model_name: bert
   model_weights: bert-base-multilingual-cased
