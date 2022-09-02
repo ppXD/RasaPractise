@@ -2,14 +2,13 @@ recipe: default.v1
 language: ch
 
 pipeline:
-- name: HFTransformersNLP
-  model_name: bert
-  model_weights: bert-base-multilingual-cased
 - name: LanguageModelTokenizer
 - name: LanguageModelFeaturizer
+  model_name: bert
+  model_weights: bert-base-multilingual-cased
 - name: RegexFeaturizer
 - name: DIETClassifier
-  epochs: 200
+  epochs: 100
 - name: ResponseSelector
   epochs: 100
 - name: FallbackClassifier
