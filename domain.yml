@@ -8,6 +8,7 @@ actions:
   - utter_greet
   - utter_goodbye
   - utter_mood_happy
+  - utter_out_of_scope
 
 responses:
   utter_greet:
@@ -18,6 +19,8 @@ responses:
   - text: 再見
   utter_mood_happy:
   - text: 能幫到您是我的榮幸！
+  utter_out_of_scope:
+  - text: 請稍等一下，我們的工作人員馬上為你服務
 
 session_config:
   session_expiration_time: 60

@@ -6,3 +6,7 @@ rules:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+- rule: transfer to customer service
+  steps:
+  - intent: nlu_fallback
+  - action: utter_out_of_scope
