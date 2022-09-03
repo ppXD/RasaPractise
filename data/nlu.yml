@@ -35,6 +35,17 @@ nlu:
     - 再見
     - 晚安
     - bye
+    - good bye
+    - bye bye
+    - see you later
+    - see you
+    - see you soon
+    - 88
+    - 拜拜
+    - 明天见
+    - 谢谢你，再见
+    - 溜了溜了
+    - 溜溜球
 - intent: mood_happy
   examples: |
     - 訂單到了，牛肉和蔬菜都很新鮮，非常滿意

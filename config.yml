@@ -3,6 +3,7 @@ language: ch
 
 pipeline:
 - name: WhitespaceTokenizer
+- name: JiebaTokenizer
 - name: LanguageModelFeaturizer
   model_name: bert
   model_weights: rasa/LaBSE
