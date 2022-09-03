@@ -1,8 +1,10 @@
-version: "3.1"
+version: "3.0"
 
 intents:
   - greet
   - goodbye
+  - mood_happy
+  - out_of_scope
 
 actions:
   - utter_greet
