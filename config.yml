@@ -2,7 +2,6 @@ recipe: default.v1
 language: zh
 
 pipeline:
-- name: WhitespaceTokenizer
 - name: JiebaTokenizer
 - name: LanguageModelFeaturizer
   model_name: bert
