@@ -1,5 +1,5 @@
 recipe: default.v1
-language: ch
+language: zh
 
 pipeline:
 - name: WhitespaceTokenizer
